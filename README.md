@@ -26,6 +26,8 @@ Currently focused on batch ETL and real-time streaming architectures.
 ![Cloud Functions](https://img.shields.io/badge/Cloud_Functions-4285F4?style=flat&logo=google-cloud&logoColor=white)
 ![dbt](https://img.shields.io/badge/dbt-FF6600?style=flat&logo=dbt&logoColor=white)
 
+![dbt](https://img.shields.io/badge/dbt-FF6600?style=flat&logo=dbt&logoColor=white)
+
 ---
 
 ## 📂 Featured Projects
@@ -51,15 +53,17 @@ Currently focused on batch ETL and real-time streaming architectures.
 - 🛠️ `Python` `Pub/Sub` `Apache Beam` `Dataflow Streaming` `BigQuery`
 
 ---
+---
 
-### 🔄 [NYC Taxi dbt Transformation Layer](https://github.com/Arti434/nyc-taxi-batch-etl-pipeline/tree/main/models)
-> ELT transformation layer on **16M+ NYC Taxi records** using dbt + BigQuery
+### 🔄 [NYC Taxi dbt Transformation Layer](https://github.com/Arti434/nyc-taxi-batch-etl-pipeline)
+> ELT transformation layer processing **16M+ NYC Taxi records** using dbt + BigQuery
 
-- ✅ 1 staging model + 3 mart models (daily, hourly, location)
-- ✅ 9 data quality tests — all passing
+- ✅ Staging model — cleans + enriches raw data
+- ✅ 3 Mart models — daily trends, hourly patterns, location performance
+- ✅ 9 automated data quality tests (all passing)
 - ✅ Auto-generated dbt documentation
-- ✅ Connected to GitHub via dbt Cloud
-- 🛠️ `dbt` `BigQuery` `SQL` `dbt Cloud` `Data Testing`
+- ✅ Looker Studio dashboard with KPI scorecards
+- 🛠️ `dbt Cloud` `BigQuery` `SQL` `Data Testing` `ELT`
 
 ---
 
@@ -75,6 +79,7 @@ Currently focused on batch ETL and real-time streaming architectures.
 | 📨 Pub/Sub | Real-time message queuing |
 | 🔐 IAM | Security & access control |
 | 📈 Looker Studio | Data visualization |
+| 🔄 dbt Cloud | ELT transformation layer |
 
 ---
 
